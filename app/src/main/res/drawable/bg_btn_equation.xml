@@ -1,0 +1,29 @@
+<!-- res/drawable/background_with_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow layer for 3D effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#91BFE5" /> <!-- Darker shade of blue-black for shadow -->
+            <corners android:radius="10dp" /> <!-- Adjust corner radius as needed -->
+        </shape>
+    </item>
+
+    <!-- Main background with border -->
+    <item android:left="2dp" android:right="5dp" android:top="2dp" android:bottom="5dp">
+        <shape android:shape="rectangle">
+
+            <gradient
+                android:startColor="#243163"
+                android:endColor="#858282"
+
+                android:angle="60"
+                android:centerColor="#317493"
+                android:centerX="0.5"
+                android:centerY="0.2"/>
+            <!--            <solid android:color="#57B0D9" /> &lt;!&ndash; Blue-black color tone for background &ndash;&gt;-->
+            <stroke android:width="2dp" android:color="#2F75C2" /> <!-- Blue-black color for border -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>

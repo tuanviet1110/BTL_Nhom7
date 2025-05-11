@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chuyển sang Layout 2" />
+
+        <!-- Các Button khác trong Layout 1 -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"> <!-- Ẩn layout này ban đầu -->
+
+        <Button
+            android:id="@+id/button2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại Layout 1" />
+
+        <!-- Các Button khác trong Layout 2 -->
+    </LinearLayout>
+</LinearLayout>

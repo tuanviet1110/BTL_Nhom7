@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Calculater</string>
+    <string name="ce">CE</string>
+    <string name="_9">9</string>
+    <string name="r_bracket">(</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="minus">-</string>
+    <string name="_1">1</string>
+    <string name="plus">+</string>
+    <string name="dot">.</string>
+    <string name="_0">0</string>
+    <string name="_3">3</string>
+    <string name="equal">=</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="multi">X</string>
+    <string name="divide">/</string>
+    <string name="l_bracket">)</string>
+    <string name="my_calculator">My Calculator</string>
+    <string name="software_inversion">Software Inversion</string>
+    <string name="SplashImage">TODO</string>
+    <string name="s_h_tron">S H.Tron</string>
+    <string name="a_2">a^2</string>
+    <string name="a_b">a^b</string>
+    <string name="log_a_b">log(a,b)</string>
+    <string name="ln">ln</string>
+    <string name="can_2">Can 2</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="cot">cot</string>
+    <string name="p_h_vuong">P H.Vuong</string>
+    <string name="bac_2">Bac 2</string>
+    <string name="bac_3">Bac 3</string>
+    <string name="percent">%</string>
+    <string name="fact">!</string>
+    <string name="s_h_vuong">S H.Vuong</string>
+    <string name="p_hcn">P HCN</string>
+    <string name="p_h_tron">P H.Tron</string>
+</resources>
